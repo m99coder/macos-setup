@@ -124,6 +124,10 @@ alias refresh=". ~/.zshrc"
 # To enforce English
 alias git="LANG=C git"
 
+# To configure Go
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
 # To load Zsh syntax highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 

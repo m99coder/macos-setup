@@ -59,6 +59,8 @@ Use the following command so that [Homebrew Cask](https://github.com/Homebrew/ho
 brew install iTerm2
 ```
 
+Configure color preset under `Preferences` > `Profiles` > `Colors` as you wish. I prefer “Solarized Dark”.
+
 **Oh My Zsh**
 
 Oh My Zsh is installed by running the following command in your terminal:
@@ -101,7 +103,7 @@ brew install romkatv/powerlevel10k/powerlevel10k
 echo 'source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 ```
 
-Configure the prompt as you wish.
+Configure the prompt as you wish. At last I activate `node_version` and `go_version` in `~/.p10k.zsh` so that the respective versions are displayed on the right side of the prompt.
 
 **Zsh Syntax Highlighting**
 
@@ -130,4 +132,25 @@ I prefer to see my network speed by utilizing MenuMeters and configuring it in a
 
 ```bash
 brew install --cask menumeters
+```
+
+**Docker**
+
+```bash
+brew install --cask docker
+```
+
+## Programming Languages
+
+**Node.js**
+
+```bash
+brew install node
+```
+
+**Go**
+
+```bash
+brew install go
+mkdir -p $HOME/go/{bin,src}
 ```
