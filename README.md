@@ -109,3 +109,25 @@ Configure the prompt as you wish.
 brew install zsh-syntax-highlighting
 echo 'source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh' >> ~/.zshrc
 ```
+
+## Applications
+
+**Window Manager**
+
+```bash
+brew install --cask tiles
+```
+
+**Visual Studio Code**
+
+```bash
+brew install --cask visual-studio-code
+```
+
+**MenuMeters**
+
+I prefer to see my network speed by utilizing MenuMeters and configuring it in a very basic way. Just enable “Network” as “Arrows and Throughput” with nothing else to display. Finally just choose black for both, transmit and receive, and a light grey for inactive.
+
+```bash
+brew install --cask menumeters
+```
