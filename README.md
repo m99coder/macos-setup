@@ -78,6 +78,9 @@ unsetopt share_history
 # Use `nano` as default editor
 export EDITOR='nano'
 
+# To update, upgrade and cleanup brew, upgrade casks and run doctor in one command
+alias brewup="brew update && brew upgrade && brew cleanup; brew upgrade --cask; brew doctor"
+
 # To include directory entries whose names begin with a dot (.)
 # To show results as list in long format
 alias ll="ls -al"
@@ -99,3 +102,10 @@ echo 'source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
 ```
 
 Configure the prompt as you wish.
+
+**Zsh Syntax Highlighting**
+
+```bash
+brew install zsh-syntax-highlighting
+echo 'source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh' >> ~/.zshrc
+```

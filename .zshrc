@@ -111,6 +111,9 @@ export EDITOR='nano'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# To update, upgrade and cleanup brew, upgrade casks and run doctor in one command
+alias brewup="brew update && brew upgrade && brew cleanup; brew upgrade --cask; brew doctor"
+
 # To include directory entries whose names begin with a dot (.)
 # To show results as list in long format
 alias ll="ls -al"
@@ -120,6 +123,9 @@ alias refresh=". ~/.zshrc"
 
 # To enforce English
 alias git="LANG=C git"
+
+# To load Zsh syntax highlighting
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # To load Zsh theme
 source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
