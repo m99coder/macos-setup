@@ -32,3 +32,21 @@ To undo this:
 defaults delete com.apple.Dock autohide-delay
 killall Dock
 ```
+
+## XCode
+
+Install Command Line Developer Tools like this:
+
+```
+xcode-select --install
+```
+
+## Shell
+
+**Oh My Zsh**
+
+Oh My Zsh is installed by running the following command in your terminal:
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
